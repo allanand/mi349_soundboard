@@ -1,7 +1,5 @@
-hi (
-   'I hope this works' 
-)
+var buttonElement = document.getElementById(the_button)
 
-var myFunction = function (hi) {
-    alert("hi")
-}
+buttonElement.addEventListener('click', function () {
+    console.log('I was clicked!')
+  })
