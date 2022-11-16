@@ -7,7 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <p>test 3</p>
-<script></script>
+    <button type="button" id="myBtn" onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+    
+<script>
+    function myFunction() {
+      var x = document.getElementById("myBtn");
+      x.disabled = true;
+    }
+</script>
 </body>
 </html>
