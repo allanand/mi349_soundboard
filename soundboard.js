@@ -1,3 +1,3 @@
 function myFunction() {
-    print("Wenesday")
+    alert("Wednesday!")
 }
