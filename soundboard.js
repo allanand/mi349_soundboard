@@ -1,4 +1,4 @@
 function play() {
-    var music = new Audio('fart.mp3');
+    var audio = new Audio('fart.mp3');
     audio.play();
 }
