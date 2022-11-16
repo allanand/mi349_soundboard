@@ -1,5 +1,4 @@
-var buttonElement = document.getElementById(the_button)
-
-buttonElement.addEventListener('click', function () {
-    console.log('I was clicked!')
-  })
+function play() {
+    var audio = musica('https://www.youtube.com/watch?v=opBFaCS_PV4');
+    audio.play();
+}
