@@ -1,5 +1,4 @@
-var buttonElement = document.getElementById('my-first-button')
-
-buttonElement.addEventListener('click', function () {
-    console.log('I was clicked!')
-  })
+function myFunction() {
+    var x = document.getElementById("myBtn");
+    x.disabled = true;
+  }
