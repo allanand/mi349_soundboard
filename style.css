@@ -1,23 +1,36 @@
 html {
-    background: #F5F5F5;
+    background: #D6E4E5;
 
 }
 
 body {
     font-family: Helvetica, sans-serif;
-    margin: 40px;
-    padding: 40px;
+    margin: 20px;
+    padding: 20px;
     color: #242424;
-    border-top: 10px solid #242424;
-    background: lightgreen;
+    border-top: 5px solid #242424;
+    background: #F7FFF7;
 }
 
 h1 {
     font-size: 3em;
     margin: 0;
+    color: #E56B70;
+    text-shadow: 5px 5px black;
 }
 
 p {
 line-height: 1.4em;
 width: 600px;
 }
+
+h2 {
+    text-shadow: 1px black;
+    box-shadow: 2px 2px #E56B70;
+}
+
+button {
+    background-color: #E56B70;
+}
+
+
