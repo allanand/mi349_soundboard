@@ -1,6 +1,6 @@
-let work = document.getElementById("work");
-    function playmusic() {
+let work = document.getElementById("play");
+    function playMusic() {
         let audio = new Audio("fart.mp3");
-        audio.work()
+        audio.play()
 }
-play.addEventListener("click", music);
+play.addEventListener("click", playMusic);
