@@ -3,4 +3,4 @@ let work = document.getElementById("work");
         let audio = Audio("fart.mp3");
         audio.play()
 }
-play.addEventListener("click", music)
+play.addEventListener("click", music);
