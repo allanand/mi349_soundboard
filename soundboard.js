@@ -7,9 +7,9 @@ play.addEventListener("click", goinginsane);
 
 
 
-let play2 = document.getElementById("play2");
+let rip = document.getElementById("rip");
 function goinginsane2() {
-    let audio2 = new Audio("fart.mp3");
-    audio2.play2()
+    let audio = new Audio("sus.mp3");
+    audio.rip()
 }
-play.addEventListener("click", goinginsane2);
+rip.addEventListener("click", goinginsane2);
