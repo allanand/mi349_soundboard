@@ -31,6 +31,14 @@ h2 {
 
 button {
     background-color: #E56B70;
+    font-weight: bold;
 }
 
+.play1 {
+    width: 100px;
+}
 
+.play2 {
+    width: 100px;
+
+}
