@@ -1,4 +1,5 @@
-buttonElement.addEventListener('click', function () {
-    var buttonElement = document.getElementById('work')
-    buttonElement.play(fart.mp3)
+var work = document.getElementById('work');
+work.addEventListener("Click", function(w) {
+    work.play(fart.mp3)
+    console.log(w)
 })
