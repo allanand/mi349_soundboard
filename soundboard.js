@@ -1,13 +1,15 @@
 let play = document.getElementById("play");
-function playMusic() {
+function goinginsane() {
     let audio = new Audio("fart.mp3");
     audio.play()
 }
-play.addEventListener("click", playMusic);
+play.addEventListener("click", goinginsane);
 
 
 
-function play2() {
-    var audio = new Audio(fart.mp3);
-    audio.play2();
+let play2 = document.getElementById("play2");
+function goinginsane2() {
+    let audio = new Audio("fart.mp3");
+    audio.play()
 }
+play.addEventListener("click", goinginsane2);
