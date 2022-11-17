@@ -1,4 +1,5 @@
-function play() {
-    var audio = audio(fart.mp3)
-    audio.play()
-}
+var buttonElement = document.getElementById('work')
+
+buttonElement.addEventListener('click', function () {
+    console.log('I was clicked!')
+  })
