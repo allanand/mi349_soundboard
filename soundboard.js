@@ -1,5 +1,4 @@
 var work = document.getElementById('work');
-work.addEventListener("Click", function(w) {
-    work.play(fart.mp3)
-    console.log(w)
+work.addEventListener("Click", function() {
+    console.log("I was played")
 })
